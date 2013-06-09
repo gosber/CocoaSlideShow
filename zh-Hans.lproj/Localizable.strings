@@ -1,0 +1,87 @@
+/* No comment provided by engineer. */
+"%@ %@ is the latest version available." = "%1$@ %2$@ 是最新的可用版本.";
+
+/* No comment provided by engineer. */
+"%@ version %@ is available!" = "%1$@ 版本 %2$@ 可用!";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Add Files…" = "添加文件(s)…";
+
+/* No comment provided by engineer. */
+"Download now" = "现在下载";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Flag" = "标记";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Full Screen" = "全屏";
+
+/* No comment provided by engineer. */
+"Go to %@ website" = "访问 %@ 网站";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Google Map" = "Google地图";
+
+/* No comment provided by engineer. */
+"Hybrid" = "混排";
+
+/* No comment provided by engineer. */
+"Ignore and Continue" = "忽略并继续";
+
+/* Toolbar item */
+"Move to Trash" = "移到废纸篓";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Physical" = "物理的";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Remove" = "移除";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Rotate Left" = "左转";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Rotate Right" = "右转";
+
+/* No comment provided by engineer. */
+"Satellite" = "卫星视角";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Set Directory…" = "选择目录…";
+
+/* Toolbar customize
+ Toolbar item
+ Toolbar tooltip */
+"Slideshow" = "幻灯播放";
+
+/* No comment provided by engineer. */
+"Street" = "街道";
+
+/* Toolbar customize
+ Toolbar tooltip */
+"Trash" = "废纸篓";
+
+/* No comment provided by engineer. */
+"What do you want to do?" = "你想做什么?";
+
+/* No comment provided by engineer. */
+"You are up to date!" = "已是最新!";

@@ -124,7 +124,7 @@ static NSString *const kSlideshowIsFullscreen = @"SlideshowIsFullscreen";
 		NSUInteger flaggedCount = [[imagesController flaggedIndexes] count];
 		
 		// TODO: localize
-		NSString *title = [NSString stringWithFormat:@"%d images (%d flags)", objectsCount, flaggedCount];
+		NSString *title = [NSString stringWithFormat:@"%d 张图片 (%d 个标志)", objectsCount, flaggedCount];
 		
 		[[[tableView tableColumnWithIdentifier:@"name"] headerCell] setTitle:title];
 		[tableView reloadData];

@@ -91,17 +91,40 @@ static NSComparisonResult naturalCompare( CSSImageInfo *img1, CSSImageInfo *img2
 
 - (void)selectNextImage {
 
-	if([self canSelectNext]) {
+	/*
+    if([self canSelectNext]) {
 		[[[self undoManager] prepareWithInvocationTarget:self] selectPrevious:self];
 		[self selectNext:self];
+	}
+    */
+    
+    //Random mode by gosber@ThinkInLAMP
+    if([self canSelectNext]) {
+        NSUInteger randomIndex = arc4random() % [[self arrangedObjects] count];
+        NSLog(@"random mode index-> %d",randomIndex);
+    	[[[self undoManager] prepareWithInvocationTarget:self] selectPrevious:self];
+		[self setSelectionIndex:randomIndex];
 	}
 }
 
 - (void)selectNextImageOrFirstOne {
-    
+    /*
 	if([self canSelectNext]) {
 		[[[self undoManager] prepareWithInvocationTarget:self] selectPrevious:self];
 		[self selectNext:self];
+	} else {
+        if([[self arrangedObjects] count] == 0) return;
+        [self setSelectionIndex:0];
+    }
+    */
+    
+    //Random mode by gosber@ThinkInLAMP
+    if([self canSelectNext]) {
+        NSUInteger randomIndex = arc4random() % [[self arrangedObjects] count];
+        NSLog(@"random mode index-> %d",randomIndex);
+    	[[[self undoManager] prepareWithInvocationTarget:self] selectPrevious:self];
+		[self setSelectionIndex:randomIndex];
+
 	} else {
         if([[self arrangedObjects] count] == 0) return;
         [self setSelectionIndex:0];
